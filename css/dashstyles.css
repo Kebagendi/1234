@@ -1,0 +1,107 @@
+body{
+    background-image: url("../images/purplebg.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+    color: yellow;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+
+}
+.bg-purple{
+    background-color: purple;
+}
+.styleul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0px;
+}
+nav {
+    margin: 5px;
+    padding: 5px;
+    background-color:transparent;
+}
+
+nav li {
+    float: left;
+}
+nav li a {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 25px 25px;
+}
+ a:hover {
+    color: rgb(55,55,144);
+
+}
+ .text-yellow{
+     color: yellow;
+ }
+.col-20{
+    width: 530px;
+
+}
+.col-10{
+    width: 380px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+#app { height: 100% }
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+}
+.option{
+    padding: 6px;
+}
+form{
+    border-radius: 20px;
+}
+.swiper {
+    width: 100%;
+    height: 50%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+.imghover{
+    transform: translate(20px)
+}
